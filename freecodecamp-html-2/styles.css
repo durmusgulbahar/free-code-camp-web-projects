@@ -1,0 +1,89 @@
+body{
+    color: white;
+    margin:50px 220px 50px 220px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    background-image:
+    linear-gradient(to bottom, rgba(42, 42, 241, 0.5), rgba(42, 42, 241, 0.5)),
+    url('https://s35691.pcdn.co/wp-content/uploads/2016/03/iStock_000037379776_Medium.160328.jpg');
+    
+}
+
+#survey-form{
+    background-color:rgb(24, 24, 70);
+    margin:auto;
+    width: 60%;
+    padding: 40px;
+    opacity: 90%;
+    
+}
+
+
+#title{
+    text-align: center;
+}
+
+#description{
+    font-style: italic;
+    text-align: center;
+}
+
+#dropdown{
+    width: 100%;
+    height:35px;
+    padding-left: 5px;
+    margin:5px 0px 5px 0px;
+}
+
+textarea{
+    width: 100%;
+    height:100px;
+    margin-top:10px;
+}
+
+input[type=checkbox]{
+    width:20px;
+    height:20px;
+}
+
+input[type=radio]{
+    width:20px;
+    height:20px;
+}
+
+input[type=submit]{
+    width:100%;
+    height:45px;
+    background-color:rgb(41, 152, 10);
+    border:none;
+    padding:10px;
+    margin-top:20px;
+    cursor:pointer;
+    color:#fff;
+    
+}
+
+input[id=name]{
+    width:100%;
+    height:35px;
+    padding-left: 10px;
+    margin-top:10px;
+}
+
+input[id=email]{
+    width:100%;
+    height:35px;
+    padding-left: 10px;
+    margin-top:10px;
+}
+
+input[id=number]{
+    width:100%;
+    height:35px;
+    padding-left: 10px;
+    margin-top:10px;
+}
+

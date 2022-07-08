@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+   
+   <div id="title-des" >
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p><br>
+   </div>
+   <form id="survey-form">
+     <div><label id="name-label">Name</label><br>
+     <input type="text" id="name" required placeholder="Enter your name"><br><br>
+     </div>
+     <div><label id="email-label">Email</label><br>
+     <input type="email" id="email" required placeholder="Enter your email"><br><br>
+     </div>
+     <div><label id="number-label">Age (optional)</label><br>
+     <input type="number" min="0" max="99" id="number" required placeholder="Enter your age"><br><br>
+     </div>
+     <div>
+      <label>Which option best describes your current role?</label><br>
+       <select id="dropdown">
+         <option value="" disabled="true">Select current role</option>
+         <option value="student">Student</option>
+         <option value="full-time-job">Full Time Job</option>
+         <option value="full-time-learner">Full Time Learner</option>
+         <option value="prefer-not-to-say">Prefer not to say</option>
+         <option value="others">Others</option>
+         </select>
+     </div><br><br>
+     <div>
+         <label>Would you recommend freeCodeCamp to a friend?</label><br>
+         <input type="radio" id="definitely" name="recommend" value="Definitely">
+         <label for="definitely">Definitely</label><br>
+         <input type="radio" id="maybe" name="recommend" value="Maybe">
+         <label for="maybe">Maybe</label><br>
+         <input type="radio" id="not-sure" name="recommend" value="Not-sure">
+         <label for="not-sure">Not Sure</label><br>
+     </div><br><br>
+     <div>
+      <label>What is your favorite feature of freeCodeCamp?</label><br>
+      <select id="dropdown">
+        <option value="" disabled="true">Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+        </select>
+    </div><br><br>
+    <div >
+      <label>What would you like to see improved? (Check all that apply)</label><br>
+      <input type="checkbox" id="front-end-projects" name="front-end-project" value="front-end-projects">
+      <label for="front-end-project">Front-End Projects</label><br>
+      <input type="checkbox" id="back-end-projects" name="back-end-project" value="back-end-projects">
+      <label for="back-end-project">Back-End Projects</label><br>
+      <input type="checkbox" id="data-visualization" name="data-visualization" value="data-visualization">
+      <label for="data-visualization">Data Visualization</label><br>
+      <input type="checkbox" id="challenges" name="challenges" value="challenges">
+      <label for="challenges">Challenges</label><br>
+      <input type="checkbox" id="open-source-community" name="open-source-community" value="open-source-community">
+      <label for="open-source-community">Open Source Community</label><br>
+      <input type="checkbox" id="gitter-help-rooms" name="gitter-help-rooms" value="gitter-help-rooms">
+      <label for="gitter-help-rooms">Gitter Help Rooms</label><br>
+      <input type="checkbox" id="videos" name="videos" value="videos">
+      <label for="videos">Videos</label><br>
+      <input type="checkbox" id="city-meetups" name="city-meetups" value="city-meetups">
+      <label for="city-meetups">City Meetups</label><br>
+      <input type="checkbox" id="wiki" name="wiki" value="wiki">
+      <label for="wiki">Wiki</label><br>
+      <input type="checkbox" id="forum" name="forum" value="forum">
+      <label for="forum">Forum</label><br>
+      <input type="checkbox" id="additional-sources" name="additional-sources" value="additional-resources">
+      <label for="additional-sources">Additional Sources</label>
+    </div><br><br>
+      <label>Any comment or suggestions?</label><br>
+      <textarea id="text-area" placeholder="Enter your comment here..."></textarea><br>
+      <input type="submit" id="submit" value="Submit">
+   </form>
+  </body>
+</html>
