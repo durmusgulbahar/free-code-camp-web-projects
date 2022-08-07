@@ -1,0 +1,1 @@
+![alt text](https://github.com/durmusgulbahar/free-code-camp-web-projects/blob/main/freecodecamp-html-2/project2.png)
